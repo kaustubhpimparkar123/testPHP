@@ -1,9 +1,0 @@
----
-- hosts: web
-  remote_user: root
-  tasks:
-   - name: copying file
-     copy:
-       src: Test.php
-       dest: /var/www/html/index.php
- 
