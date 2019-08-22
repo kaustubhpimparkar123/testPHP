@@ -1,6 +1,6 @@
 ---
 - hosts: web
-  task:
+  tasks:
    - name: copying file
      copy:
        src: Test.php
