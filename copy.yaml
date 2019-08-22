@@ -1,0 +1,8 @@
+---
+- hosts: web
+  task:
+   - name: copying file
+     copy:
+       src: Test.php
+       dest: /var/www/html/index.php
+ 
